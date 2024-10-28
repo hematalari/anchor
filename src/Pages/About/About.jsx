@@ -5,8 +5,8 @@ import Footer from "../../Components/Footer/Footer";
 import Image from "/assets/images/abut.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Contact from "../../Components/Contact/Contact";
-import about from "/anchor/assets/images/about.jpeg";
-import image from '/anchor/assets/images/about-sec.jpeg'
+import about from "/assets/images/about.jpeg";
+import image from '/assets/images/about-sec.jpeg'
 
 const About = () => {
   return (
