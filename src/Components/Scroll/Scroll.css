@@ -1,0 +1,25 @@
+.Scroll{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    z-index: -1;
+}
+.Scroll-text{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.text1 span{
+    margin-right:2rem;
+}
+.text2 span:not(:last-child){
+    margin-right: 2rem;
+}
+.text2 span:last-child{
+    margin-right: 1rem;
+}

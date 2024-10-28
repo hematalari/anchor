@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.techno-top{
+    width:100%;
+    height: 550px;
+    background: #17152D;
+}
+.techno-bg-img{
+    position:relative; 
+    width: 100%; 
+    height: 550px; 
+    object-fit: cover; 
+    z-index: -1;
+}
+.techno-image img{
+    width:500px;
+    height: 450px;
+    margin-left: 800px;
+    margin-top: -450px;
+}
+.techno-cont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 20px;
+    margin-top: -350px;
+    z-index: 1;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    gap:50px;
+}
+.techno-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px ;
+    gap:30px;
+}
+.techno-info h2{
+    color:white;
+    font-size: 32px;
+    width:70%;
+}
+.techno-info p{
+    color:white;
+    font-size: 24px;
+    width:750px;
+}
+.techno-btn{
+    margin-left: 60px;
+    padding:18px 40px;
+    background-color: #6076FF;
+}
+.techno-btn:hover{
+    cursor: pointer;
+    background-color:white;
+}
+.techno-section{
+    margin: 50px 100px;
+}
+.techno-section-top{
+    padding: 10px 0;
+}
+.techno-section-top h2{
+    font-size: 32px;
+    margin-bottom: 22px;
+}
+.techno-section-top p{
+    font-size: 24px;
+    text-align: justify;
+    width:90%;
+}
+.techno-tech-list{
+    margin: 30px 80px;
+    background-color: #E5E8FF;
+    padding: 20px;
+    border-radius: 8px;
+}
+.techno-tech-list li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+.techno-button{
+    padding: 18px 40px;
+    margin-left: 80px;
+    background-color: #6076FF;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.techno-button:hover{
+    color:white;
+    background-color: #383636;
+}
+.techno-section-two-image, .techno-section-one-image, .techno-section-three-image{
+    margin:30px 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.techno-section-image-two-top{
+    width:100%;
+    height: 254px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-image: url('/anchor/assets/images/tech-sec2.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.techno-section-image-three-top{
+    width:100%;
+    height: 354px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-image: url('/anchor/assets/images/tech-sec3.png');
+    background-position: center;
+    background-size: cover;
+}
+.techno-section-image-one-top{
+    width:100%;
+    height: 254px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-image: url('/anchor/assets/images/tech-sec.png');
+    background-position: center;
+    background-size: cover;
+}
+.techno-section-image-two-top h2, .techno-section-image-one-top h2, .techno-section-image-three-top h2{
+    width:50%;
+    font-size: 38px;
+    color:white;
+    padding: 0px 40px;
+}
+.techno-section-image-two-top span{
+    color:#FFDB3B;
+}
+.techno-section-two-cont, .techno-section-one-cont, .techno-section-three-cont{
+    height: 225px;
+    background-color: #FFED9B;
+    color:black;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.techno-section-two-cont p, .techno-section-one-cont p, .techno-section-three-cont p{
+    width:80%;
+    text-align: justify;
+}
+.techno-btm-tabs-container {
+    margin: 30px 80px;
+    text-align: center;
+  }
+  
+  .techno-btm-tabs {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  
+  .tab-title {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .tab-title.active {
+    color: #FFDB3B;
+  }
+  .tab-title:hover{
+    cursor: pointer;
+    color: #FFDB3B;
+  }
+  .underline {
+    position: relative;
+    height: 2px;
+    width:92%;
+    background-color: #383636;
+    z-index:-1;
+    margin-left: 45px;
+  }
+  
+  .tab-title.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2.5px;
+    background-color: #FFDB3B;
+  }
+  .techno-btm-tab-content {
+    padding: 20px;
+    margin-top: 20px;
+    margin: 30px 80px;
+    font-size: 20px;
+    width:50%;
+    margin-left: 300px;
+    font-weight: 600;
+  }
+.techno-tech-list{
+    margin: 30px 80px;
+    background-color: #FFF3F3;
+    padding: 20px;
+    border-radius: 8px;
+}
+.techno-tech-list li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+.techno-tech-list span{
+    font-size: 22px;
+    color:black;
+    font-weight: 700;
+}
+.techno-button{
+    padding: 18px 40px;
+    margin-left: 80px;
+    background-color: #6076FF;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.techno-button:hover{
+    color:white;
+    background-color: #383636;
+}
+.techno-image-cont{
+    margin: 30px 200px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.techno-image-cont-item{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+}
+.techno-image-cont-item h2{
+    font-size: 30px;
+    color:#6076FF;
+}
+.techno-bottom{
+    margin: 30px 100px;
+    background-color: #FFFAE3;
+    border-radius: 4px;
+    
+}
+.techno-bottom-cont{
+    padding: 30px;
+    width:100%;
+    height:400px;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.techno-list-item{
+    margin-top: 20px;
+    width:45%;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 22px;
+    text-align: justify;
+}

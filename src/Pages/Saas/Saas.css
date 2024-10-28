@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.saas-top{
+    width:100%;
+    height: 550px;
+    background: rgb(0, 0, 0);
+}
+.saas-bg-img{
+    position:relative; 
+    width: 100%; 
+    height: 550px; 
+    object-fit: cover; 
+    z-index: -1;
+}
+.saas-image img{
+    width:400px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: -350px;
+}
+.saas-cont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 20px;
+    margin-top: -400px;
+    z-index: 1;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    gap:50px;
+}
+.saas-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px ;
+    gap:30px;
+}
+.saas-info h2{
+    color:#FFDB3B;
+    font-size: 22px;
+}
+.saas-info h3{
+    color:white;
+    font-size: 38px;
+    width:750px;
+}.saas-info p{
+    color: white;
+    font-size: 16px;
+    width:650px;
+}
+.saas-btn{
+    margin-left: 60px;
+    padding:12px 30px;
+    background-color: blue;
+}
+.saas-btn:hover{
+    cursor: pointer;
+    background-color: #2842eb;
+}
+.saas-section{
+    margin: 30px 80px;
+}
+.saas-section-top{
+    padding: 10px 0;
+}
+.saas-section-top h2{
+    font-size: 42px;
+    margin-bottom: 22px;
+}
+.saas-section-top p{
+    font-size: 22px;
+    text-align: justify;
+    width:50%;
+    color:white;
+    margin-left: 30px;
+}
+.saas-section-p-cont{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    background-image: url('/assets/images/saas-bg.jpeg');
+
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:300px;
+}
+.saas-section-box{
+    position: relative;
+    display: inline-block;
+    width:300px;
+    height: 300px;
+    gap:60px;
+  }
+  .saas-img-container{
+    width:300px;
+    height: 300px;
+    cursor: pointer;
+  }
+  .saas-img-container img{
+    transition: 1s ease;
+  }
+  .saas-img-container:hover{
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    transition: 1s ease;
+  }
+  .saas-img-container img{
+    width:200px;
+    height: 200px;
+  }
+  .saas-img-content{
+    display:none;
+    z-index: -1;
+  }
+  .saas-img-content:hover{
+    display:block;
+  }
+  .saas-section-center{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:60px;
+  }
+  .saas-section-box{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:317px;
+    height: 317px;
+  }
+  .saas-section-bottom{
+    margin:30px 80px;
+  }
+  .saas-section-btm-top img{
+    width:100%;
+    height:319px;
+  }
+  .saas-section-btm-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    height: 317px;
+    gap:20px;
+    margin-top: -5px;
+    background: linear-gradient(90deg, #6076FF 0%, #E8EAF5 52.55%, #6076FF 100%);
+  }
+  .saas-section-btm-center h2{
+    font-size: 32px;
+  }
+  .saas-section-btm-center p{
+    width: 90%;
+    font-size: 24px;
+    text-align: center;
+  }
+  .saas-section-bottom-bottom{
+    margin: 30px 160px;
+  }
+  .saas-section-bottom-bottom-top{
+    width:100%;
+    height: 319px;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('/assets/images/saas-btm-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    gap:20px;
+  }
+  .saas-section-bottom-bottom-top h2{
+    font-size: 32px;
+    margin-left: 30px;
+  }
+  .saas-section-bottom-bottom-top p{
+    font-size: 28px;
+    margin-left: 30px;
+  }

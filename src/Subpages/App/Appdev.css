@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.appdev-top{
+    width:100%;
+    height: 550px;
+    background: #191919;
+}
+.appdev-bg-img{
+    position:relative; 
+    width: 100%; 
+    height: 550px; 
+    object-fit: cover; 
+    z-index: -1;
+}
+.appdev-image img{
+    width:500px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: -350px;
+}
+.appdev-cont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 20px;
+    margin-top: -350px;
+    z-index: 1;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    gap:50px;
+}
+.appdev-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px ;
+    gap:30px;
+}
+.appdev-info h2{
+    color:white;
+    font-size: 32px;
+}
+.appdev-info p{
+    color:white;
+    font-size: 24px;
+    width:750px;
+}
+.appdev-btn{
+    margin-left: 60px;
+    padding:18px 40px;
+    background-color: #6076FF;
+}
+.appdev-btn:hover{
+    cursor: pointer;
+    background-color:white;
+}
+.appdev-section{
+    margin: 50px 100px;
+}
+.appdev-section-top{
+    padding: 10px 0;
+}
+.appdev-section-top h2{
+    font-size: 32px;
+    margin-bottom: 22px;
+}
+.appdev-section-top p{
+    font-size: 24px;
+    text-align: justify;
+    width:80%;
+}
+.appdev-tech-bottom{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 4px;
+    gap:40px;
+}
+.appdev-tech-bottom span{
+    color:#6076FF;
+}
+.appdev-tech-cont img{
+    width:50px;
+    height: 50px;
+}
+.appdev-tech-cont h2{
+    font-size: 39px;
+}
+.appdev-tech-cont p{
+    font-size: 16px;
+    padding: 10px 0px;
+    color:#B2B2B2;
+    width:80%;
+}
+.appdev-tech-button{
+    margin-left: 100px;
+}
+.appdev-tech-bottom{
+    margin: 30px 100px;
+}
+
+.appdev-tech-button{
+    padding: 18px 40px;
+    background-color: #6076FF;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 100px;
+}
+.appdev-section-image{
+    margin:5px 60px;
+}
+.appdev-section-image-top{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-image: url('/anchor/assets/images/web-bg.png');
+    background-position: center;
+    background-size: cover;
+    color:white;
+    padding: 30px;
+    height:335px;
+}
+.appdev-section-image-top h2{
+    font-size: 42px;
+    width:70%;
+}
+.appdev-tabs-container {
+    margin: 30px 50px;
+    margin-top: 80px;
+  }
+
+.appdev-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+  }
+  .appdev-tab-title{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .appdev-line {
+width:max-content;
+  position: relative;
+  height: 2px;
+  background-color: #ddd;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap:150px;
+  margin-left: 200px;
+}
+
+.appdev-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ddd;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.appdev-circle.active {
+  background-color: #0021F5;
+}
+
+  .appdev-tab {
+    margin-top: 20px;
+    padding:10px 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appdev-tab:hover {
+    color: #0021F5;
+  }
+  
+  .active {
+    color: #0021F5;
+  }
+  
+  .appdev-tab-content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    width:50%;
+    margin-left: 350px;
+  }
+  .appdev-slider-bottom{
+    margin:30px 80px;
+   background-color: black;
+    height: 345px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 38px;
+}
+.appdev-slider-bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.appdev-slider-bottom h2{
+    margin-left: 80px;
+    font-size: 32px;
+    width:50%;
+    background-image: url('/anchor/assets/images/background.png');
+    background-position: start;
+    background-size: cover;
+}
+.appdev-bottom{
+    margin: 30px 100px;
+}
+.appdev-section-one-image{
+    margin:30px 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.appdev-section-image-one-top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+.appdev-section-image-one-top h2{
+    font-size: 32px;
+    color:white;
+    padding: 0px 40px;
+}
+.appdev-section-one-cont{
+    height: 225px;
+    background-color: #6076FF;
+    color:white;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.appdev-section-one-cont p{
+    width:60%;
+    text-align: center;
+}
+.appdev-section-bottom{
+    margin:30px 80px;
+}
+.appdev-section-bottom h2{
+    padding: 30px 0px;
+}

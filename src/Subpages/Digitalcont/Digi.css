@@ -1,0 +1,31 @@
+.digi{
+    margin: 30px 80px;
+}
+.digi-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+}
+.digi-cont{
+    width:50%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 40px 30px;
+}
+.digi-top{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap:20px;
+}
+.digi-top img{
+    width:40px;
+    height: 40px;
+}

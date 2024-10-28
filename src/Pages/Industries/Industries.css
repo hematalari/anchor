@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.industries-top{
+    width:100%;
+    height: 550px;
+    background: rgba(0, 0, 0,0.7);
+}
+.indus-bg-img{
+    position:relative; 
+    width: 100%; 
+    height: 550px; 
+    object-fit: cover; 
+    z-index: -1;
+}
+.indus-cont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 20px;
+    margin-top: -400px;
+    z-index: 1;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    gap:50px;
+}
+.indus-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px ;
+    gap:30px;
+}
+.indus-info h2{
+    color:#FFDB3B;
+    font-size: 22px;
+}
+.indus-info h3{
+    color:white;
+    font-size: 38px;
+}.indus-info p{
+    color: white;
+    font-size: 16px;
+}
+.industries-section{
+    margin: 60px;
+}
+.industries-sec-top,.industries-sec-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:50px;
+    margin: 50px;
+}
+.indus-sec-right, .indus-sec-bottom-right{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction:column;
+    text-align: justify;
+    gap:30px;
+    border: 1px solid black;
+    width:525px;
+    height: 487px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.indus-sec-right h2, .indus-sec-bottom-right h2{
+    font-size: 38px;
+}
+.indus-sec-right p, .indus-sec-bottom-right p{
+    font-size: 20px;
+}
+.indus-sec-right li, .indus-sec-bottom-right li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.indus-sec-left{
+    width:525px;
+    height: 487px;
+    border-radius: 15px;
+    background-image: url("/assets/images/person.jpeg");
+
+}
+.indus-sec-bottom-left{
+    width:525px;
+    height: 487px;
+    border-radius: 15px;
+    background-image: url("/assets/images/person3.jpeg");
+    
+}
+.industries-sec-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:50px;
+    margin: 50px;
+}
+.indus-sec-center-left{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction:column;
+    text-align: justify;
+    gap:30px;
+    border: 1px solid black;
+    width:525px;
+    height: 487px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.indus-sec-center-left h2{
+    font-size: 38px;
+}
+.indus-sec-center-left p{
+    font-size: 20px;
+}
+.indus-sec-center-left li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.indus-sec-center-right{
+    width:525px;
+    height: 487px;
+    border-radius: 15px;
+    background-image: url("/assets/images/person2.jpeg");
+}
+.industries-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+}
+.industries-container p{
+    color:black;
+    font-size: 42px;
+    font-weight: 600;
+}
+.company-scroll{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDB3B;
+    color:white;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    z-index: -1;
+}
+.Scroll-text{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 22px;
+}
+.text1 span, .text2 span{
+    margin-right:2rem;
+}
+.text2 span:not(:last-child), .text3 span:not(:last-child), .text4 span:not(:last-child){
+    margin-right: 2rem;
+}
+.text2:last-child, .text3:last-child , .text4 :last-child{
+    margin-right: 1rem;
+}
+.contact-form-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:80px 10px;
+    place-content: center;
+    color: white;
+}
+.contact-form-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+    padding: 60px;
+    background-color: #1B1B1B;
+    gap:50px;
+    width:1120px;
+    height: 500px;
+    border-radius: 15px;
+    place-content: center;
+}
+.contact-form-right{
+    width:500px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+.contact-form-right h2{
+font-size: 32px;
+}
+.contact-form-right p{
+    font-size: 18px;
+    gap:10px;
+    padding: 5px;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: -9px;
+    color:#FFDB3B;
+}
+.contact-form-right span{
+    font-size: 22px;
+}
+.cont-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:600px;
+    height: 450px;
+    background-color: white;
+    color:black;
+    border-radius: 15px;
+    gap:15px;
+}
+.form-cont{
+    padding: 10px;
+  }
+ .form-cont label{
+    font-size: 18px;
+ }
+  .form-cont input,
+  .form-cont textarea{
+    width:400px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    border:1px solid grey;
+  }
+  .form-cont-btn{
+    background: transparent;
+    background-color: #ffdb3b;;
+    padding: 10px 145px;
+    border-radius: 4px;
+  }
+  .form-cont-btn:hover{
+    background-color: #3D3D3D;
+  }

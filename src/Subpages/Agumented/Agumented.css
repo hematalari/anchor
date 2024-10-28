@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.agument-top{
+    width:100%;
+    height: 550px;
+    background: #383636;
+}
+.agument-bg-img{
+    position:relative; 
+    width: 100%; 
+    height: 550px; 
+    object-fit: cover; 
+    z-index: -1;
+}
+.agument-image img{
+    width:500px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: -360px;
+}
+.agument-cont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 20px;
+    margin-top: -350px;
+    z-index: 1;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    gap:50px;
+}
+.agument-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px ;
+    gap:30px;
+}
+.agument-info h2{
+    color:white;
+    font-size: 32px;
+}
+.agument-info p{
+    color:white;
+    font-size: 24px;
+    width:750px;
+}
+.agument-btn{
+    margin-left: 80px;
+    padding:18px 40px;
+    background-color: #6076FF;
+}
+.agument-btn:hover{
+    cursor: pointer;
+    color:white;
+    background-color:#383636;
+}
+.agument-section{
+    margin: 50px 100px;
+}
+.agument-section-top{
+    padding: 10px 0;
+}
+.agument-section-top h2{
+    font-size: 32px;
+    margin-bottom: 22px;
+}
+.agument-section-top p{
+    font-size: 24px;
+    text-align: justify;
+    width:90%;
+}
+.agument-section-two-image, .agument-section-one-image, .agument-section-three-image{
+    margin:30px 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.agument-section-image-two-top{
+    width:100%;
+    height: 254px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-image: url('/anchor/assets/images/reality-sec2.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.agument-section-image-three-top{
+    width:100%;
+    height: 254px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-image: url('/anchor/assets/images/reality-sec3.jpeg');
+    background-position: center;
+    background-size: cover; 
+}
+.agument-section-image-one-top{
+    width:100%;
+    height: 254px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-image: url('/anchor/assets/images/reality-sec.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.agument-section-image-two-top h2, .agument-section-image-one-top h2, .agument-section-image-three-top h2{
+    width:70%;
+    font-size: 32px;
+    color:white;
+    padding: 0px 40px;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.agument-section-image-two-top span{
+    color:#FFDB3B;
+}
+.agument-section-two-cont, .agument-section-one-cont{
+    height: 225px;
+    background-color: #FFEDED;
+    color:black;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.agument-section-two-cont p, .agument-section-one-cont p{
+    width:80%;
+    text-align: justify;
+}
+.agument-tech-bottom{
+    margin: 30px 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 4px;
+    gap:20px;
+}
+.agument-tech-cont {
+    margin: 20px;
+    width:60%;
+}
+.agument-tech-cont h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    width:100%;
+}
+.agument-tech-cont p{
+    font-size: 18px;
+    padding: 10px 0px;
+    color:#B2B2B2;
+}
+
+.agument-section-bottom {
+    margin: 30px 100px;
+    background-color: #EBEBEB;
+    border-radius: 4px;
+    height: 500px;
+}
+
+.agument-section-bottom-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.agument-sec-cont{
+    display:inline-flex;
+    width:45%;
+    height: 100px;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 10px;
+    gap:5px;
+    margin: 20px;
+    margin-left: 35px;
+}
+.agument-sec-cont ul{
+    list-style-type:square;
+}
+
+li::marker{
+    color: #445AEC;
+    font-size: 32px;
+}
+.agument-bottom{
+    margin: 30px 100px;
+    background-color: #FFFAE3;
+    border-radius: 4px;
+    
+}
+.agument-bottom-cont{
+    padding: 30px;
+    width:100%;
+    height:500px;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.agument-list-item{
+    margin-top: 20px;
+    width:45%;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 22px;
+    text-align: justify;
+}
