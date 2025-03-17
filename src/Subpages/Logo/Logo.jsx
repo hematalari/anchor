@@ -5,7 +5,7 @@ import Footer from "../../Components/Footer/Footer";
 import Contact from "../../Components/Contact/Contact";
 import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import logo from "/anchor/assets/images/logo-banner.webp";
+import logo from "/assets/images/logo-banner.webp";
 import Projects from "../../Components/Projects/Projects.jsx";
 import slider_info from "../../data/slider.js";
 
