@@ -5,7 +5,7 @@ import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import logo from "/anchor/assets/images/reality.png";
+import logo from "/assets/images/reality.png";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const Agumented = () => {

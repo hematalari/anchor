@@ -5,7 +5,7 @@ import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import logo from "/anchor/assets/images/smart.png";
+import logo from "/assets/images/smart.png";
 
 const Smart = () => {
   const [activeTab, setActiveTab] = useState("Tab1");

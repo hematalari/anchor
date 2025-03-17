@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '/anchor/assets/images/new-logo.png'
+import Logo from '/assets/images/new-logo.png'
 import { FaFacebook, FaYoutube, FaInstagramSquare, FaLinkedin,FaRegCopyright} from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 

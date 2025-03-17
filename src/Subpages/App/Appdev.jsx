@@ -4,16 +4,16 @@ import Nav from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import Side from "/anchor/assets/images/appdev-side.png";
-import Android from "/anchor/assets/images/android.png";
-import IOS from "/anchor/assets/images/ios.png";
-import Cross from "/anchor/assets/images/cross.png";
+import Side from "/assets/images/appdev-side.png";
+import Android from "/assets/images/android.png";
+import IOS from "/assets/images/ios.png";
+import Cross from "/assets/images/cross.png";
 import Projects from "../../Components/Projects/Projects.jsx";
 import slider_info from "../../data/slider.js";
-import Point from '/anchor/assets/images/web-point.png'
+import Point from '/assets/images/web-point.png'
 import insight_data from "../../data/insight.js";
 import Ques from "../../Pages/Ques/Ques.jsx";
-import Sideimage from '/anchor/assets/images/sideimage.png'
+import Sideimage from '/assets/images/sideimage.png'
 import Marquee from 'react-fast-marquee'
 import Contact from "../../Components/Contact/Contact.jsx";
 

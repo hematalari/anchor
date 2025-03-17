@@ -5,7 +5,7 @@ import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import logo from "/anchor/assets/images/embed.png";
+import logo from "/assets/images/embed.png";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";

@@ -5,7 +5,7 @@ import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import logo from "/anchor/assets/images/tech.png";
+import logo from "/assets/images/tech.png";
 import { FaHeart } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa6";
 import { FaShoppingBag } from "react-icons/fa";

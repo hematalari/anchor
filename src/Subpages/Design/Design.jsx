@@ -5,7 +5,7 @@ import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
-import Ui from "/anchor/assets/images/UI.png";
+import Ui from "/assets/images/UI.png";
 import Projects from "../../Components/Projects/Projects.jsx";
 import slider_info from "../../data/slider.js";
 
