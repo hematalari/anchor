@@ -84,7 +84,7 @@ const Nav = () => {
                 className={menu === "Career" ? "active" : ""}>Career</Link>
                 </li> 
             </ul>
-            <Link to = '/anchor/contact' 
+            <Link to = '/anchor/Contact' 
                 onClick={() => setMenu("contact")}
                 className={menu === "contact" ? "active" : ""}>Contact</Link>
             </div>
