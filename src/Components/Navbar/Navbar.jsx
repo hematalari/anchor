@@ -36,7 +36,7 @@ const Nav = () => {
             <img src={logo} alt="" />
             <ul className='list'>
                 <li className="nav-item active">
-                    <Link to = '/anchor' 
+                    <Link to = '/anchor/' 
                     onClick={() => setMenu("home")}
                     className={menu === "home" ? "active" : ""}>Home</Link>
                 </li>

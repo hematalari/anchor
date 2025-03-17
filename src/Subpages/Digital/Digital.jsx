@@ -5,10 +5,11 @@ import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 import Insight from "/assets/images/insights.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
+
 import digital from "/assets/images/digital-banner.png";
 import Digi from "../Digitalcont/Digi.jsx";
 import digital_data from "../../data/digital.js";
-import Sideimage from "/anchor/assets/images/digital-side-img.png";
+import Sideimage from "/assets/images/digital-side-img.png";
 import Projects from "../../Components/Projects/Projects.jsx";
 import slider_info from "../../data/slider.js";
 
